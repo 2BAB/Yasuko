@@ -750,12 +750,7 @@ h1 {
   z-index: -1;
   background: url("../../assets/images/escheresque_ste.png");
   opacity: .25;
-  background-color: rgba(0, 0, 0, 0.05);
-  transition: background-color 500ms ease-out 2s;
-  -webkit-animation-name: animate-bg;
-  -webkit-animation-duration: 20s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite; }
+  background-color: rgba(0, 0, 0, 0.05); }
 
 .arrow_down {
   display: none;

@@ -1037,11 +1037,6 @@ h1
     height: 100%;
 
     content: '';
-    transition: background-color 500ms ease-out 2s;
-    -webkit-animation-name: animate-bg;
-    -webkit-animation-duration: 20s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite; 
 
     opacity: .25;
     background: url('../../assets/images/escheresque_ste.png');
