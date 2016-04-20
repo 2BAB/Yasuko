@@ -58,11 +58,11 @@ function loadJS(url, callback, el) {
  */
 
 var duoshuoQuery = {
-    short_name: "luolei"
+    short_name: "life-2bab"
 };
 
 var GlobalConfigue = {
-    duoshuoDomain: 'https://luolei.org',
+    duoshuoDomain: 'http://life.2bab.me',
 }
 
 
