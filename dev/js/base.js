@@ -507,15 +507,13 @@ $(document).ready(function() {
                         settings.appear.call(self, elements_left, settings);
                     }
                     var updatedUrl = $self.attr("data-" + settings.data_attribute);
-                    // console.log('图片地址' +updatedUrl.indexOf('upaiyun'));
-                    // console.log('CDN地址' +updatedUrl.indexOf('file.is26.com'));
-                    if (updatedUrl.indexOf('upaiyun') > -1 || updatedUrl.indexOf('file.is26.com') > -1) {
+                    if (updatedUrl.indexOf('qiniucnd') > -1 || updatedUrl.indexOf('clouddn') > -1) {
                         // alert(1)
                         if (settings.advanced_load == true) {
                             updatedUrl += '!';
                         }
                         if (settings.is_scale == true) {
-                            updatedUrl += '/fw/' + settings.scale_width;
+                            updatedUrl += '/0/w/' + settings.scale_width;
                         }
                         if (settings.webP_load == true) {
                             updatedUrl += '/format/webp';
