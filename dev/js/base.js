@@ -509,9 +509,9 @@ $(document).ready(function() {
                     var updatedUrl = $self.attr("data-" + settings.data_attribute);
                     if (updatedUrl.indexOf('qiniucnd') > -1 || updatedUrl.indexOf('clouddn') > -1) {
                         // alert(1)
-                        if (settings.advanced_load == true) {
-                            updatedUrl += '!';
-                        }
+                        // if (settings.advanced_load == true) {
+                        //     updatedUrl += '!';
+                        // }
                         if (settings.is_scale == true) {
                             updatedUrl += '?imageView2/0/w/' + settings.scale_width;
                         }
