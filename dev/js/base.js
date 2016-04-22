@@ -513,10 +513,10 @@ $(document).ready(function() {
                             updatedUrl += '!';
                         }
                         if (settings.is_scale == true) {
-                            updatedUrl += '/0/w/' + settings.scale_width;
+                            updatedUrl += '?imageView2/0/w/' + settings.scale_width;
                         }
                         if (settings.webP_load == true) {
-                            updatedUrl += '/format/webp';
+                            updatedUrl += '?imageView2/0/format/webp';
                         }
                     }
 
